@@ -17,7 +17,7 @@ public class CirclesCountry {
 		return crosses;
 	}
 	
-	public boolean isInside(int x, int y, int cx, int cy, int r) 
+	private boolean isInside(int x, int y, int cx, int cy, int r) 
 	{
 
 		int dist = (x-cx)*(x-cx) + (y-cy)*(y-cy);
