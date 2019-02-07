@@ -39,7 +39,6 @@ public class MemberCheck {
 		}
 
 		TreeSet<String> sorted = new TreeSet<>(cheat);
-		HashSet<String> already = new HashSet<>();
 		//ArrayList<String> ret = new ArrayList<>(sorted);
 		
 		String holder = "";

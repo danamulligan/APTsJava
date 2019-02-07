@@ -1,4 +1,3 @@
-import java.util.HashSet;
 
 public class Encryption {
 	public String encrypt(String message){
