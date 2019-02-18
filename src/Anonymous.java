@@ -1,3 +1,56 @@
+/*
+public class Anonymous {
+      public int howMany(String[] headlines, String[] messages) {
+            // fill in code here
+    	  int count = 0;
+    	  for (String m : messages) {
+    		  if (canwrite(headlines, m))
+    		  	{
+    			  count++;
+    		  	}
+    	  }
+    	  
+          return count;
+      }
+      public boolean canwrite(String[] headlines, String message) {
+		  int[] hList = countH(headlines);
+		  int[] mList = countM(message);
+    	  
+    	  for(int k=0; k<256; k++) {
+			  if(hList[k]<mList[k]) {
+				  return false;
+			  }
+		  }
+		  return true;
+	  }
+      public int[] countM(String message) {
+    	  int[] mList = new int[256];
+    	  message = message.toLowerCase();
+    	  for(int k=0; k<message.length(); k++)
+    	  {
+    		  mList[message.charAt(k)] += 1;
+    	  }
+    	  return mList;
+      }
+      
+      public int[] countH(String[] headlines)
+      {
+    	  int[] hList = new int[256];
+    	  String hold = "";
+    	  
+    	  for(String s : headlines)
+    	  {
+    		  hold = s.toLowerCase();
+    		  for(int k=0; k<s.length(); k++)
+    		  {
+    			  hList[hold.charAt(k)] += 1; 
+    		  }
+    	  }
+    	  return hList;
+      }
+   }
+*/
+
 public class Anonymous {
 	public int howMany(String[] headlines, String[] messages) 
 	{
