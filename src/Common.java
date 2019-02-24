@@ -1,3 +1,4 @@
+import java.util.Arrays;
 
 public class Common {
 	public int count (String aa, String bb) 
@@ -59,5 +60,9 @@ public class Common {
 
 		return re.split("");
 	}
+	
+	
+	
+	
 	
   }
