@@ -15,13 +15,13 @@ public class RemoveMin {
     		  if(list.next.info == minBefore)
     		  {
     			  list.next = list.next.next;
+    			  return front;
     		  }
     		  else
     		  {
     			  list = list.next;
     		  }
     	  }
-    	  
 
     	  return front;
       }
